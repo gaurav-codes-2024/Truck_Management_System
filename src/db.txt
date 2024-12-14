@@ -1,0 +1,24 @@
+  # to create database  use below command
+
+create database truckManagementDb;
+
+  # for using created database use below command
+
+use truckManagementDb;
+
+  # To create table use below command
+
+create table truck(
+id int primary key auto_increment,
+truck_company_name varchar(40),
+truck_model_number varchar(40),
+truck_capacity int,
+driver_name varchar(50),
+driver_address varchar(46),
+driver_mobile_number varchar(10)
+);
+
+
+desc truck;
+
+select * from truck;
